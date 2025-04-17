@@ -29,6 +29,6 @@ function calcularMaioridade(idade: number, maiorDeIdade: boolean, menorDeIdade: 
     if(idade > 18){
         return maiorDeIdade;
     }else{
-        return menorDeIdade
+        return menorDeIdade;
     };
 }
